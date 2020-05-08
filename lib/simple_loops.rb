@@ -16,4 +16,5 @@ end
 
 def return_string_array (array)
   array.map {&:to_s}
+  array
 end
